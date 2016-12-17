@@ -1,16 +1,16 @@
-custom-exception
+common-exception
 =========
 
-Custom exceptions to help handle easily exceptions in nodejs application
+Common exceptions to help handle easily exceptions in nodejs application
 
 ## Installation
 
-`npm install --save custom-exception`
+`npm install --save common-exception`
 
 ## Usage
 
 ```javascript
-var exceptions = require('custom-exceptions');
+var exceptions = require('common-exceptions');
 var EntityNotFoundException = exceptions.EntityNotFoundException;
 
 try {
@@ -38,7 +38,7 @@ Currently there are the following exceptions for use:
 
 ```javascript
 var app = require('express').app();
-var ValidationException = require('exceptions').ValidationException;
+var ValidationException = require('common-exceptions').ValidationException;
 
 app.post('/users', (req, res) => {
     let user = req.body;
