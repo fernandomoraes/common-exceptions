@@ -6,7 +6,10 @@ const NAMES = [
 	'IllegalArgumentException'
 ];
 
-// const EXCEPTIONS = NAMES.reduce( {});
+module.exports = NAMES.reduce(function (map, name) {
+	map[name] = extend();
+	return map;
+},{});
 
 function extend() {
 	const fn = function (message) {
@@ -14,18 +17,6 @@ function extend() {
 		Error.captureStackTrace(this, arguments.callee);
 		this.message = message;
 	};
-
 	util.inherits(fn, Error);
 	return fn;
 }
-
-module.exports = NAMES.reduce(function (map, name) {
-	map[name] = extend();
-	return map;
-},{});
-
-// module.exports = {
-// 	EntityNotFoundException: extend(),
-// 	ValidationException: extend(),
-// 	IllegalArgumentException: extend()
-// };
