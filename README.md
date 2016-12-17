@@ -1,11 +1,11 @@
-common-exception
+common-exceptions
 =========
 
 Common exceptions to help handle easily exceptions in nodejs application
 
 ## Installation
 
-`npm install --save common-exception`
+`npm install --save common-exceptions`
 
 ## Usage
 
