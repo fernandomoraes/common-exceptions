@@ -1,7 +1,7 @@
 {
-  "name": "custom-exceptions",
+  "name": "common-exceptions",
   "version": "1.0.0",
-  "description": "custom exceptions for nodejs",
+  "description": "common exceptions for nodejs",
   "main": "index.js",
   "engines": {
     "node": ">=v7.1.0"
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fernandomoraes/custom-exceptions.git"
+    "url": "git+https://github.com/fernandomoraes/common-exceptions.git"
   },
   "keywords": [
-    "custom",
+    "common",
     "exceptions",
     "nodejs",
     "exception",
@@ -22,7 +22,7 @@
   "author": "Fernando Moraes <fernandosdemoraes@gmail.com> (https://github.com/fernandomoraes)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fernandomoraes/custom-exceptions/issues"
+    "url": "https://github.com/fernandomoraes/common-exceptions/issues"
   },
-  "homepage": "https://github.com/fernandomoraes/custom-exceptions#readme"
+  "homepage": "https://github.com/fernandomoraes/common-exceptions#readme"
 }
